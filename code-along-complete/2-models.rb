@@ -23,6 +23,8 @@ puts "companies: #{Company.all.count}" # companies: 0
 
 # 2. insert new rows in companies table
 
+
+
 # Insert a row
 new_company = Company.new
 new_company["name"] = "Apple"
